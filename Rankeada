@@ -1,0 +1,36 @@
+//# Meu Rank em Fortis
+console.log("Castor com suas descrições de pontuação:")
+let pontuaçãoAtual = "10.220, "
+const victoryWar = "10"
+let Drawn = " 3"
+console.log( "XP é igual á " + pontuaçãoAtual + "Com " + victoryWar + " Batalhas vencidas " + "porém tem" + Drawn + " derrotas. " )
+
+
+
+
+
+// PW = Pontos de guerra = vitórias
+let PW = 7
+if(PW <= 10){
+console.log("Seu RANK Guerra é Ferro ")
+}
+else if(PW <= 21){
+console.log("Seu RANK Guerra é Bronze")
+}
+else if(PW <= 51){
+console.log("Seu RANK Guerra é Prata")
+}else if(PW <= 81){
+console.log("Seu RANK Guerra é Ouro")
+}
+else if(PW <= 91){
+console.log("Seu RANK Guerra é Diamante")
+}else if(PW <= 101){
+console.log("Seu RANK Guerra é Lendário")
+}
+else if(PW >= 100){
+console.log("Seu RANK Guerra é Imortal")
+}
+
+else{
+console.log("Verifique o número inserido")
+  }
